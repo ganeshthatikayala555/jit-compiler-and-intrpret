@@ -11,3 +11,4 @@ Mix of Execution: While the loop is compiled into native machine code and execut
 such as variable declarations and the print statement, might still be interpreted.
 n this example, the loop that calculates the sum is a hotspot that gets compiled into native machine code by the JIT compiler,
 while other parts of the program might continue to be interpreted by the JVM. 
+l
