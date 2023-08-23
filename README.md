@@ -11,4 +11,5 @@ Mix of Execution: While the loop is compiled into native machine code and execut
 such as variable declarations and the print statement, might still be interpreted.
 n this example, the loop that calculates the sum is a hotspot that gets compiled into native machine code by the JIT compiler,
 while other parts of the program might continue to be interpreted by the JVM. 
-l
+The JVM interprets the bytecode instructions or, in some cases, the JIT compiler within the JVM converts hot spots in the bytecode into native machine code for execution by the CPU.
+compiled C code is executed directly by the CPU as native machine code, while compiled Java bytecode is executed by the JVM, which either interprets the bytecode or compiles it into native machine code using the JIT compiler.
